@@ -1,0 +1,28 @@
+# Python bytecode & environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Databases & local telemetry
+*.db
+*.sqlite3
+backend/data/*.db
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs & Temporary files
+*.log
+scratch/
+tmp/
+.pytest_cache/
